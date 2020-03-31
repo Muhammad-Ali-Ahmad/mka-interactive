@@ -67,23 +67,79 @@
           </div>
         </nav>
  
+        <div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                 <h5 class="modal-title" id="modal1">The fastest horse</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+                   </button>
+                  </div>
+               <div class="modal-body">
+                 <img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/1.png" alt="creative corner 1">
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+               </div>
+               </div>
+   </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+       <h5 class="modal-title" id="modal2">Water Jug Riddle</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+         </button>
+        </div>
+     <div class="modal-body">
+       <img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/2.png" alt="creative corner 2">
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+     </div>
+     </div>
+</div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+       <h5 class="modal-title" id="modal3">12 stones problem</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+         </button>
+        </div>
+     <div class="modal-body">
+       <img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/3.png" alt="creative corner 3">
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+     </div>
+     </div>
+</div>
+</div>
  
         <h1>MKA Creative Corner</h1>
  
        <div class="row cards-container">
           <div class="col-md-4">
              <div class="card text-white bg-dark">
-                 <a href="https://khuddam.org.uk/wp-content/uploads/2020/03/1.png" target="_blank"><img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/1.png" alt="creative corner 1" /></a>
+                 <a href="modal1" data-toggle="modal" data-target="#modal1"><img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/1.png" alt="creative corner 1" /></a>
              </div>
           </div>
           <div class="col-md-4">
              <div class="card text-white bg-dark">
-                <a href="https://khuddam.org.uk/wp-content/uploads/2020/03/2.png" target="_blank"><img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/2.png" alt="creative corner 2" /></a>
+                <a href="modal2" data-toggle="modal" data-target="#modal2"><img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/2.png" alt="creative corner 2" /></a>
              </div>
           </div>
           <div class="col-md-4">
              <div class="card text-white bg-dark">
-                <a href="https://khuddam.org.uk/wp-content/uploads/2020/03/3.png" target="_blank"><img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/3.png" alt="creative corner 3" /></a>
+                <a href="modal3" data-toggle="modal" data-target="#modal3"><img class="cc-image" src="https://khuddam.org.uk/wp-content/uploads/2020/03/3.png" alt="creative corner 3" /></a>
              </div>
           </div>
        </div>
@@ -162,4 +218,24 @@
         width: 95%;
         margin: 0.5em;
     }
+     
+   .modal-header {
+   background-color: #2A2F34;
+   }
+
+   .modal-body{
+   background-color: #2A2F34;
+}
+
+   .modal-footer{
+   background-color: #2A2F34;
+}
+
+   .modal-title {
+      color: white;
+   }
+
+   .close {
+      color: #fff; 
+   }
  </style>
